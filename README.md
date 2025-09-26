@@ -23,7 +23,9 @@
 
 Перенаправление запросов на разные серверы:
 
-<img width="1012" height="691" alt="image" src="https://github.com/user-attachments/assets/7799074d-571d-4e87-a4d4-f6177e34ec66" />
+
+<img width="1235" height="729" alt="image" src="https://github.com/user-attachments/assets/50ad557d-15e5-40c1-83c4-2b2a7990b6c4" />
+
 
 
 
