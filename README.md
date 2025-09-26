@@ -41,6 +41,20 @@ HAproxy должен балансировать только тот http-тра�
 
 ### Решение 2
 
+В третьем окне создаем третий пайтон снервер на порту 8899: python3 -m http.server 8899 --bind 0.0.0.0
+
+<img width="1754" height="318" alt="image" src="https://github.com/user-attachments/assets/ba58f1ba-c711-4ad0-9267-03994c42ea2a" />
+
+Добавляем сервер в конфигурации HAProxy /etc/haproxy/haproxy.cfg и перезапущен командой systemctl reload haproxy
+
+Конфигурационный файл haproxy.cfg:
+
+<img width="1422" height="1067" alt="image" src="https://github.com/user-attachments/assets/2cf363f4-a38d-4302-a45b-61fee72756d7" />
+
+
+
+
+
 
 
 
